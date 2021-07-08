@@ -42,9 +42,11 @@ aside {
 }
 
 .main .products-row {
+  width: 900px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
 .main h6 {
@@ -64,6 +66,7 @@ aside {
   border: solid #e5e5e5 1px;
   line-height: 30px;
   box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
 .shop-card button {

@@ -3,4 +3,4 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import "./style.css";
 
-ReactDOM.render(<App />, document.querySelector("body"));
+ReactDOM.render(<App />, document.querySelector("#root"));
